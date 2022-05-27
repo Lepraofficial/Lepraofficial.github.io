@@ -1,0 +1,49 @@
+
+main nav {
+  background-color: #44250c;
+  padding: 5px;
+}
+main nav a {
+    text-decoration: none;
+    padding: 3px;
+    transition: all 0.2s;
+}
+main nav a:hover,
+main nav a:focus {
+  transform: scale(1.1);
+  background-color: #8d4c17;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.songs-grid{
+    margin: 20px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+    
+}
+
+.player{
+border: black solid 2px;
+}
+
+#tekst {
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+#members {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+
+#members >* {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
