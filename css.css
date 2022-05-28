@@ -24,6 +24,7 @@ header{
     transform: translate(-50%, 0);
     padding: 5px 2em;
     margin-top: -5px;
+    z-index: 100;
 }
 
 header figure img {
@@ -44,6 +45,7 @@ header a{
     height: 70px;
     background-color: black;
     margin-top: -10px;
+    z-index: 99;
 }
 main {
     padding-top: 80px;
