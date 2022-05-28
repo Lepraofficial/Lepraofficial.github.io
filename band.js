@@ -3,12 +3,15 @@ console.log("band connected")
 /// scroll snapping za members
 let members = document.getElementById("members");
 let cooldown = 0;
+function resetCooldown () {
+    cooldown = 0
+}
 document.addEventListener("scroll",()=> {
     if(scrollY > 450 && scrollY < 600 && cooldown == 0){
         let y = members.getBoundingClientRect().top + window.pageYOffset - 100;
         window.scrollTo({top: y, behavior: 'smooth'});
         cooldown = 1;
-        setTimeout(()=>{cooldown = 0}, 5000)
+        setTimeout(resetCooldown, 5000)
     }
     console.log(scrollY)
 })
