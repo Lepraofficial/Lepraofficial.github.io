@@ -1,0 +1,19 @@
+
+.songs-grid{
+    margin: 20px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+    
+}
+
+.player{
+border: black solid 2px;
+}
+
+#tekst {
+    max-width: 80%;
+    margin: 20px auto;
+}
