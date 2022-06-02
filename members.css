@@ -12,6 +12,15 @@
   width: 95vw;
   scroll-snap-align: start;
 }
-h1 {
-    font-size: 4rem;
+
+ #members img {
+   max-height: 60vh;
+   width: auto;
+  }
+h1{
+  padding-top: 20px;
+  margin: 5px;
+}
+p{
+  font-size: 1rem;
 }
