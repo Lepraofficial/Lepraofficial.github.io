@@ -68,7 +68,7 @@ main nav {
     justify-content: space-around;
 }
 
-main section {
+section {
     margin: 5px;
 }
 
@@ -85,6 +85,12 @@ p {
 
 footer{
     margin: 5px;
+}
+footer span {
+    font-size: 0.8rem;
+}
+.footnav >*{
+    padding: 5px;
 }
 
 .flex {

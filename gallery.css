@@ -21,11 +21,11 @@
   position: absolute;
   font-size: 2rem;
   width: 100%;
-  height: 50%;    
+  height: 70%;    
   transition: all 0.2s;
   z-index: 3;
   opacity: 0;
-  top: 25%;
+  top: 10%;
   left: 0px;
 }
 
