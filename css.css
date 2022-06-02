@@ -84,13 +84,11 @@ p {
 }
 
 footer{
-    margin: 5px;
-}
-footer span {
-    font-size: 0.8rem;
+    margin: 50px 5px;
 }
 .footnav >*{
     padding: 5px;
+    font-size: 0.8rem;
 }
 
 .flex {
