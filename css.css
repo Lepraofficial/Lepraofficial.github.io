@@ -77,9 +77,10 @@ h1 {
     margin: 20px 5px;
 }
 h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 p {
+    font-size: 1.5rem;
     padding: 5px;
 }
 
@@ -88,7 +89,7 @@ footer{
 }
 .footnav >*{
     padding: 5px;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .flex {
