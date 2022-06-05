@@ -67,6 +67,11 @@ function promjeni(ime){
             tekst.innerHTML = "Wasted rumbling trough the street<br>Barely standing on my feet<br>Couldn't feel the cold, i almost froze<br>But that's the life i chose<br><br>A rusty crew up in the corner<br>Beer's the only thing we order<br>We don't care 'bout what you think<br>We just want to drink<br><br>Drink<br>When you go out<br>Drink<br>Till you black out<br>Drink<br>Till you trow up<br>We're never gonna stop<br><br>So you want to drink with us?<br>Buy a round and come right up<br>We'll be getting one right back<br>We're not tough to crack<br><br>If you're at odds with everyone<br>Come right up and sit on down<br>We'll be fast to take you in<br>If you're down to sin<br><br>Drink<br>When you go out<br>Drink<br>Till you black out<br>Drink<br>Till you trow up<br>We're never gonna stop<br><br>Drink x16";
             naslov.scrollIntoView({behavior: "smooth", block:"center"});
         break;
+        case 13:
+            naslov.innerHTML = "Assured Destruction";
+            tekst.innerHTML = "Tekstttttttttttttttt";
+            naslov.scrollIntoView({behavior: "smooth", block:"center"});
+        break;
 
     }
 }
