@@ -3,7 +3,7 @@
     margin: 20px auto;
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-column-gap: 20px;
     grid-row-gap: 20px; 
     
@@ -16,4 +16,22 @@ border: black solid 2px;
 #tekst {
     max-width: 80%;
     margin: 20px auto;
+}
+
+
+.song span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 70%;    
+    transition: all 0.2s;
+    opacity: 1;
+    z-index: 4;
+    top: 10%;
+    background-color: black;
+}
+.song img {
+    display: none;
 }
