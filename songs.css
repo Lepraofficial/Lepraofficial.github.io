@@ -35,3 +35,22 @@ border: black solid 2px;
 .song img {
     display: none;
 }
+
+@media only screen and (min-width: 600px){
+    /*Tablets [601px -> 800px]*/
+    main {
+        margin:  0px 10%;
+    }
+  }
+  @media only screen and (min-width: 800px){
+    /*Tablets [601px -> 800px]*/
+    main {
+        margin:  0px 20%;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+    /*big screens [>1000]*/
+    main {
+        margin:  0px 30%;
+    }
+  }

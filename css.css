@@ -16,7 +16,7 @@ a{
     color: white;
 }
 header{
-    font-size: 0.7em;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,9 +25,30 @@ header{
     left: 50%;
     transform: translate(-50%, 0);
     padding: 5px 2em;
-    margin-top: -5px;
     z-index: 100;
 }
+@media only screen and (max-width: 600px){
+    /*Tablets [601px -> 800px]*/
+    header {
+        font-size: 0.7em;
+        margin-top: -5px;
+    }
+  }
+  @media only screen and (min-width: 600px){
+    /*Tablets big [601px -> 800px]*/
+    header {
+        font-size: 1em;
+        margin-top: -10px;
+        width: 80vw;
+    }
+  }
+  @media only screen and (min-width: 1000px){
+    /*big screens [>1000]*/
+    header {
+        font-size: 1em;
+        margin-top: -10px;
+    }
+  }
 
 header figure img {
     max-width: 90px;

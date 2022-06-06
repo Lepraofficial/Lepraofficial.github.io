@@ -21,3 +21,24 @@ h1{
   padding-top: 20px;
   margin: 5px;
 }
+@media only screen and (min-width: 600px){
+  /*Tablets [601px -> 800px]*/
+  p {
+    max-width: 550px;
+    margin: 5px auto;
+  }
+}
+@media only screen and (max-height: 600px){
+  /*Tablets [601px -> 800px]*/
+  p {
+    font-size: 0.7rem;
+  }
+  main h2 {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+  #members img {
+    max-height: 55vh;
+   }
+
+}
