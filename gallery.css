@@ -8,6 +8,8 @@ h2 {
 }
 
 
+
+
 @media only screen and (min-width: 1000px){
   /*big screens >1001px*/
   main{
@@ -22,6 +24,11 @@ h2 {
     grid-row-gap: 20px; 
     overflow-x: scroll;
     grid-template-columns:1fr 1fr;
+  }
+  #naslovna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #naslovna img {
     width: 60vw;
